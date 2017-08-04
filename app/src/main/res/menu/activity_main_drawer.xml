@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_storage"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_local_shipping"
+            android:title="Almacen" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_wallet"
+            android:title="cartera" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_shopping_basket"
+            android:title="Canastillas" />
+        <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/ic_menu_business"
+        android:title="Estadisticas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Settings" />
+
+        </menu>
+    </item>
+
+</menu>
